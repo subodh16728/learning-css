@@ -1,0 +1,26 @@
+/* Site to calculate specificity: https://specificity.keegan.st/ */
+
+body {
+    font-size: 20px;
+}
+
+p {
+    color: blue;
+}
+
+p {
+    color: purple;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.highlight {
+    text-transform: uppercase;
+    background-color: yellow;
+}
