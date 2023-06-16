@@ -1,0 +1,20 @@
+/* Contrast checker: https://coolors.co/contrast-checker/ 
+   Color picker: https://coolors.co/
+*/
+
+body {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    background: #ffefd5;
+    color: #00008b;
+}
+
+
+h1 {
+    color: #4C3306;
+}
+
+p {
+    color: #383838;
+}
