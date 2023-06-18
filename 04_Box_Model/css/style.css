@@ -1,0 +1,27 @@
+/* Browser sets default margin and padding that's why we use universal selector to make margin and padding to 0 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px outset #ff0000;
+    font-size: 1.5rem;
+    margin: 1em;
+    padding: 1em;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 2rem auto;
+    border: 2px solid #000 ;
+    border-radius: 50px;
+    outline: 2px solid green;
+    outline-offset: 2px;
+}
+
+
