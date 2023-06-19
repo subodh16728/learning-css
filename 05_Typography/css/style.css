@@ -1,0 +1,12 @@
+/* Few elements such as input and button does not inherit the properties set in the body */
+
+body {
+    padding: 10%;
+    font-size: 1.2rem;
+    color: blue;
+}
+
+input, button {
+    font: inherit;
+    color: inherit;
+}
