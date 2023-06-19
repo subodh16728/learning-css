@@ -1,12 +1,26 @@
-/* Few elements such as input and button does not inherit the properties set in the body */
+/* fonts.google.com site to choose fonts */
+/* It is suggested not to use fonts from google as it takes more time to load */
 
 body {
     padding: 10%;
     font-size: 1.2rem;
-    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-input, button {
+/* input, button {
     font: inherit;
     color: inherit;
+} */
+
+p {
+    text-decoration: none;
+    text-transform: none;
+    text-align: left; /* Default */
+    text-indent: 2em;
+    line-height: 1.2;
+    letter-spacing: 0em;
+    word-spacing: 0em;
+
 }
+
+
