@@ -5,26 +5,29 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* main {
-    background: rgb(174, 170, 170); 
-    width: 50%; 
-} */
-
-.para {
-    border: 2px solid red;
-    /* margin: 10%; */
-    padding: 1em;
+ul {
+    /* display: none; */
+    list-style-type: none;
+    /* border: 2px solid red; */
+    padding: 2%;
+    background-color: #cccbcb;
+    text-align: right;
 }
 
-p {
-    background-color: #def113;
-}
-
-.span-class {
-    background: #000;
-    color: whitesmoke;
+li {
     display: inline-block;
-    margin: 5%;
-    padding: 5%;
-
+    /* background-color: yellow; */
+    margin: 0.5%;
 }
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover, li a:focus {
+    text-decoration: underline;
+    /* opacity: 0.7; */
+}
+
+
+
