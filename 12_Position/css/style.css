@@ -24,7 +24,7 @@ body {
 .inner-container {
     border: 2px solid gray;
     width: 40vw;
-    height: 40vh;
+    height: 50vh;
     margin: 7em auto;
     /* margin: 7em 0 0 5em; */
     /* position: relative; */
@@ -55,4 +55,10 @@ body {
     background-color: #f00;
     position: fixed;
     top: 120px;
+}
+
+.sticky {
+    background-color: #17a5b8;
+    position: sticky;
+    top: 200px;
 }
